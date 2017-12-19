@@ -23,6 +23,7 @@ class CurrentUser {
     
     func setCompletedGames(games: [String]) {
         completedGameIds = games
+
     }
     
     func getCompletedGameIds(completion: @escaping ([String]?) -> Void) {
